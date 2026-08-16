@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "base.html" import not_built %}
+{% block content %}
+  <h1>Conference programme</h1>
+  <p class="lede">IEEE ISMAR 2025. Browse the sessions, open one to see its
+     papers, and add papers to a schedule.</p>
+
+  {% if not_implemented %}
+    {{ not_built("The programme cannot be listed because list_sessions (and
+       probably load_sessions) is not implemented. This is the foundation
+       slice for Assessment 2A.") }}
+  {% elif not sessions %}
+    <p class="lede">No sessions loaded. Check that <code>data/sessions.csv</code>
+       exists and that <code>load_sessions</code> reads it.</p>
+  {% else %}
+    <div class="grid">
+      {% for s in sessions %}
+        <a class="card" href="{{ url_for('main.session_detail', session_name=s.session) }}">
+          <div class="card-title">{{ s.session }}</div>
+          <div class="meta">
+            <span class="tag">{{ s.track }}</span>
+            {{ s.day }} &middot; {{ s.start_time }} &middot; {{ s.room }}
+            &middot; {{ s.paper_count }} paper{{ "s" if s.paper_count != 1 }}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

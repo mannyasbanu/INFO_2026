@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "base.html" import not_built %}
+{% block title %}{{ session_name }}{% endblock %}
+{% block content %}
+  <a class="back" href="{{ url_for('main.index') }}">&larr; All sessions</a>
+  <h1>{{ session_name }}</h1>
+
+  {% if not_implemented %}
+    {{ not_built("The papers for this session cannot be listed because
+       list_papers is not implemented. This is part of the foundation slice
+       for Assessment 2A.") }}
+  {% elif not papers %}
+    <p class="lede">No papers found for this session.</p>
+  {% else %}
+    {% for p in papers %}
+      <div class="paper">
+        <div class="card-title">{{ p.title }}</div>
+        <div class="paper-authors">{{ p.authors }}</div>
+        <form class="inline" method="post" action="{{ url_for('main.add_paper') }}">
+          <input type="hidden" name="paper_title" value="{{ p.title }}">
+          <input type="text" name="schedule_name" placeholder="Schedule name">
+          <button type="submit">Add to schedule</button>
+        </form>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endblock %}

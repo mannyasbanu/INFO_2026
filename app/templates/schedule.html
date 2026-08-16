@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% from "base.html" import not_built %}
+{% block title %}{{ schedule_name }}{% endblock %}
+{% block content %}
+  <a class="back" href="{{ url_for('main.schedules') }}">&larr; All schedules</a>
+  <h1>{{ schedule_name }}</h1>
+
+  {% if summary_missing %}
+    {{ not_built("The summary cannot be shown because summarise is not
+       implemented (UC4, Assessment 2B).") }}
+  {% elif summary %}
+    <table class="summary">
+      <tr><td>Papers</td><td>{{ summary.paper_count }}</td></tr>
+      <tr><td>Total time</td><td>{{ summary.total_minutes }} minutes</td></tr>
+      <tr><td>Tracks</td><td>
+        {% for track, count in summary.tracks.items() %}
+          <span class="tag">{{ track }} ({{ count }})</span>
+        {% endfor %}
+      </td></tr>
+    </table>
+  {% endif %}
+
+  <h2>Papers</h2>
+  {% if papers_missing %}
+    {{ not_built("The papers in this schedule cannot be listed because
+       list_schedule_papers is not implemented (UC2, Assessment 2B).") }}
+  {% elif not papers %}
+    <p class="lede">This schedule has no papers.</p>
+  {% else %}
+    {% for p in papers %}
+      <div class="paper">
+        <div class="card-title">{{ p.title }}</div>
+        <div class="meta">{{ p.session }} &middot; {{ p.day }} &middot;
+           {{ p.start_time }} &middot; {{ p.room }}</div>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endblock %}

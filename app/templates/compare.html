@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% from "base.html" import not_built %}
+{% block title %}Compare schedules{% endblock %}
+{% block content %}
+  <h1>Compare schedules</h1>
+  <p class="lede">Pick two saved schedules to see what you share, what is
+     unique to each, and a merged joint schedule.</p>
+
+  {% if names_missing %}
+    {{ not_built("Schedules cannot be listed because list_schedules is not
+       implemented (UC2, Assessment 2B).") }}
+  {% elif not names %}
+    <p class="lede">You need at least two saved schedules to compare.</p>
+  {% else %}
+    <form class="inline" method="post">
+      <select name="schedule_a">
+        {% for n in names %}<option value="{{ n }}">{{ n }}</option>{% endfor %}
+      </select>
+      <select name="schedule_b">
+        {% for n in names %}<option value="{{ n }}">{{ n }}</option>{% endfor %}
+      </select>
+      <button type="submit">Compare</button>
+    </form>
+  {% endif %}
+
+  {% if result_missing %}
+    {{ not_built("The comparison cannot run because compare is not implemented
+       (UC3, Assessment 2B).") }}
+  {% elif result %}
+    <h2>Shared ({{ result.shared|length }})</h2>
+    {% for t in result.shared %}<div class="paper">{{ t }}</div>{% endfor %}
+    <h2>Only in first ({{ result.only_a|length }})</h2>
+    {% for t in result.only_a %}<div class="paper">{{ t }}</div>{% endfor %}
+    <h2>Only in second ({{ result.only_b|length }})</h2>
+    {% for t in result.only_b %}<div class="paper">{{ t }}</div>{% endfor %}
+    <h2>Merged joint schedule ({{ result.merged|length }})</h2>
+    {% for t in result.merged %}<div class="paper">{{ t }}</div>{% endfor %}
+  {% endif %}
+{% endblock %}

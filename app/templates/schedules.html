@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% from "base.html" import not_built %}
+{% block title %}My schedules{% endblock %}
+{% block content %}
+  <h1>My schedules</h1>
+  {% if not_implemented %}
+    {{ not_built("Saved schedules cannot be listed because list_schedules is
+       not implemented. Building schedules is UC2, implemented in Assessment
+       2B.") }}
+  {% elif not names %}
+    <p class="lede">No schedules yet. Open a session from the
+       <a href="{{ url_for('main.index') }}">programme</a> and add a paper to
+       start one.</p>
+  {% else %}
+    <div class="grid">
+      {% for name in names %}
+        <a class="card" href="{{ url_for('main.schedule_detail', schedule_name=name) }}">
+          <div class="card-title">{{ name }}</div>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,236 @@
+day,session,title,authors,track,room,start_time,duration_min
+2025-10-09,3D Display 1,Dynamic Eyebox Steering for Improved Pinlight AR Near-eye Displays,"Xinxing Xia, Zheye Yu, Dongyu Qiu, Andrei State, Tat-Jen Cham, Frank Guan, Henry Fuchs",Displays,Room 201,10:30,60
+2025-10-09,3D Display 1,GS-ProCams: Gaussian Splatting-Based Projector-Camera Systems,"Qingyue Deng, Jijiang Li, Haibin Ling, Bingyao Huang",Displays,Room 201,10:30,60
+2025-10-09,3D Display 1,Multi-illumination-interfered Neural Holography with Expanded Eyebox,"Xinxing Xia, Pengfei Mi, Yiqing Tao, Xiangyu Meng, Wenbin Zhou, Yingjie Yu, Yifan Peng",Displays,Room 201,10:30,60
+2025-10-09,3D Display 1,A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches,"Ke Shi, Quan Xiong, Maozeng Zhang, Aiguo Song, Lifeng Zhu",Displays,Room 201,10:30,60
+2025-10-09,Agents Design,Virtual Roomie: Immersive Layout Co-design with a Virtual Agent,"Angela L. Jimenez, Pedro Acevedo, Christos Mousas",Agents,Room 202,10:30,60
+2025-10-09,Agents Design,HAT Swapping: Virtual Agents as Stand-ins for Absent Human Instructors,"Jingjing Zhang, Binyang Han, Ze Dong, Jack Topliss, Mamehgol Yousefi, Gun A. Lee, Simon Hoermann, Wendy Zhang, Thammathip Piumsomboon",Agents,Room 202,10:30,60
+2025-10-09,Agents Design,Laughing Together: Virtual Agents in Emotional Contagion in a Stand-Up Comedy Club,"Similde Mair, Fariba Mostajeran, Joan Llobera, Mel Slater, Frank Steinicke",Agents,Room 202,10:30,60
+2025-10-09,Agents Design,An Embodied AR Navigation Agent: Integrating BIM with Retrieval-Augmented Generation,"Hsuan-Kung Yang, Tsu-Ching Hsiao, Ryoichiro Oka, Ryuya Nishino, Satoko Tofukuji, Norimasa Kobori",Agents,Room 202,10:30,60
+2025-10-09,Machine Learning and Graphics,Enhanced Velocity Field Modeling for Gaussian Video Reconstruction,"Zhenyang Li, Xiaoyang Bai, Tongchen Zhang, Pengfei Shen, Weiwei Xu, Yifan Peng",Machine Learning,Room 204,10:30,60
+2025-10-09,Machine Learning and Graphics,Real-Time Physically-Based Relighting and Composition of Radiance Fields with Proxy Meshes,"Yang Xu, Jinyang Bo, Junfeng Wang, He Tian, Yuhe Zhang, Kang Li, Guohua Geng",Machine Learning,Room 204,10:30,60
+2025-10-09,Machine Learning and Graphics,Parameter-Free Neural Lens Blur Rendering for High-Fidelity Composites,"Lingyan Ruan, Bin Chen, Taehyun James Rhee",Machine Learning,Room 204,10:30,60
+2025-10-09,Machine Learning and Graphics,Radiance Fields in XR: A Survey,"Ke Li, Mana Masuda, Susanne Schmidt, Shohei Mori",Machine Learning,Room 204,10:30,60
+2025-10-09,Video Presentations 1: Human Factors and XR,How Spatial Ability Affects Response to Gaze-Adaptive Cueing in MR Navigation,"Yu Zhao, Bobby Bodenheimer",Human Factors,Room 205,10:30,60
+2025-10-09,Video Presentations 1: Human Factors and XR,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile AR,"Martin Pluisch, Jan Gugenheimer, Youngjun Cho, Simon Julier, Ernst Kruijff",Human Factors,Room 205,10:30,60
+2025-10-09,Video Presentations 1: Human Factors and XR,Measuring Rotational Inertia in HMDs,"Jared Van Dam, Matt Werner, Kyle Tanous, Joseph L Gabbard",Human Factors,Room 205,10:30,60
+2025-10-09,Video Presentations 1: Human Factors and XR,AR Visualization Techniques for Search and Rescue,"Kelsey Quinn, Joseph L Gabbard, Enricoandrea Laviola, John Luksas",Human Factors,Room 205,10:30,60
+2025-10-09,Haptics 1,Enhancing Pseudo-Haptics on the Hand by Viewpoint Shifts in VR,"Riku Watanabe, Mitsuru Ito, Akifumi Takahashi, Tomohiro Amemiya, Yuki Ban",Haptics,Room 301,10:30,60
+2025-10-09,Haptics 1,ThumbShift: Modulating Perceived Object Properties through Dynamic Thumb Repositioning,"Jian Zhang, Gavin Buckingham, Wafa Johal, Jarrod Knibbe",Haptics,Room 301,10:30,60
+2025-10-09,Haptics 1,Pseudo-Haptic Techniques for Simulating Surface Stickiness in VR,"Yutaro Hirao, Celeste Bourse, Koki Hori, Takuji Narumi, Ferran Argelaguet Sanz, Anatole Lecuyer",Haptics,Room 301,10:30,60
+2025-10-09,Haptics 1,The Effect of Realism on Hand Redirection in Immersive Environments,"Shuqi Liao, Yuqi Zhou, Voicu Popescu",Haptics,Room 301,10:30,60
+2025-10-09,Locomotion and 3DUI,TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking,"Geuntae Park, Jiwon Yi, Taehyun James Rhee, Kwanguk Kim, Yoonsang Lee",Locomotion,Room 201,12:00,60
+2025-10-09,Locomotion and 3DUI,Big Frog Vibes: Jumping Superhuman Distances in VR,"Graham Wilson, Harvey Russell, Joseph O'Hagan, Mark McGill",Locomotion,Room 201,12:00,60
+2025-10-09,Locomotion and 3DUI,Isometric and Elastic Balance Boards for VR Locomotion,"Michael Nelson, Christos Mousas",Locomotion,Room 201,12:00,60
+2025-10-09,Locomotion and 3DUI,Pointing and Confirmation Techniques for Teleportation Across Elevations,"Bakdauren Narbayev, A K M Amanat Ullah, Jaisie Sin, Patricia Lasserre, Khalad Hasan",Locomotion,Room 201,12:00,60
+2025-10-09,Tracking,An Evaluation of Movement Data Analysis Techniques for VR,"Alice Guth, Jessica J Good, Eugy Han, Jeremy Bailenson, Tabitha C. Peck",Tracking,Room 202,12:00,60
+2025-10-09,Tracking,OpenFLAME: Federated Visual Positioning System for Large-Scale AR,"Sagar Bharadwaj Kalasibail Seetharam, Harrison Williams, Ainiu Luke Wang, Michael Liang, Tao Jin, Srinivasan Seshan, Anthony Rowe",Tracking,Room 202,12:00,60
+2025-10-09,Tracking,XR Reality Check: What Commercial Devices Deliver for Spatial Tracking,"Tianyi Hu, Tianyuan Du, Zhehan Qu, Maria Gorlatova",Tracking,Room 202,12:00,60
+2025-10-09,Social Behavior and Presence,Don't look at me like that: How AR face recognition changes social behaviour,"Kushani Tharushika Perera, Holger Regenbrecht, Nadia Pantidi, Tobias Langlotz",Presence,Room 204,12:00,60
+2025-10-09,Social Behavior and Presence,Dynamic Measurement of Visitor Behavioral Engagement Using HMDs,"Shuyu Luo, Yujia Qian, Chaoyi Huang, Xinyi Hao, Xin Zhang",Presence,Room 204,12:00,60
+2025-10-09,Social Behavior and Presence,Gender Congruence and Social Context in XR,"Hyeongil Nam, Seoyoung Kang, Anh Nguyen, Isaac Cho, Woontack Woo, Kangsoo Kim",Presence,Room 204,12:00,60
+2025-10-09,Social Behavior and Presence,Entering Your Space: How Agent Entrance Styles Shape Social Presence in AR,"Junyeong Kum, Seungwon Kim, Myungho Lee",Presence,Room 204,12:00,60
+2025-10-09,Diversity and Therapy,Portable Silent Room: VR Design for Anxiety and Emotion Regulation,"Kinga Skiers, Yun Suen Pai, Marina Nakagawa, Kouta Minamizawa, Giulia Barbareschi",Health,Room 205,12:00,60
+2025-10-09,Diversity and Therapy,Exploring VR Group Therapy Approaches with the LGBTQIA+ community,"Kinga Skiers, Danyang Peng, Anish Kundu, Tanner Person, Kenkichi Takase, Tamii Nagoshi, Sawako Nakayama, Yano Yuichiro, Tomoyuki Miyazaki, Kouta Minamizawa, Giulia Barbareschi",Health,Room 205,12:00,60
+2025-10-09,Diversity and Therapy,MetaRoundWorm: A VR Escape Room Game for Learning Parasitic Infections,"Xuanru Cheng, Xian Wang, Chi-lok Tai, Lik-Hang Lee",Health,Room 205,12:00,60
+2025-10-09,Diversity and Therapy,ZonAware: Identifying Zoning Out in Upper Limb VR Rehabilitation,"Kai-Lun Liao, Mengjie Huang, Jiajia Shi, Min Chen, Rui Yang",Health,Room 205,12:00,60
+2025-10-09,Collaboration,Bichronous Collaboration: Across Time and Space Workflow for Physical Tasks,"Hyunwoo Cho, Eunhee Chang, Bowen Yuan, Theophilus Teo, Gun A. Lee, Thammathip Piumsomboon, Mark Billinghurst",Collaboration,Room 301,12:00,60
+2025-10-09,Collaboration,VR Onboarding Procedures for Multiple Collocated Users,"Ephraim Schott, Tony Jan Zoeppig, Pramoch Viriyathomrongul, Anton Benjamin Lammert, Bernd Froehlich",Collaboration,Room 301,12:00,60
+2025-10-09,Collaboration,"Shared, Replicated, or Separated? Virtual Workspace Configurations","Juliette Le Meudec, Anastasia Bezerianos, Arnaud Prouzeau",Collaboration,Room 301,12:00,60
+2025-10-09,Collaboration,PACT: Modeling Coordination Dynamics in Scale-Asymmetric VR Collaboration,"Hayeon Kim, In-Kwon Lee",Collaboration,Room 301,12:00,60
+2025-10-09,Education and Learning,Enhancing Learning and Knowledge Retention of Abstract Physics Concepts with VR,"Mehmet Akif Akdag, Jean Botev, Steffen Rothkugel",Education,Room 201,14:30,60
+2025-10-09,Education and Learning,LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education,"Yuxin Shen, Wei Liang, Jianzhu Ma",Education,Room 201,14:30,60
+2025-10-09,Education and Learning,Understanding Collaborative Learning of Molecular Structures in AR,"Tobias Rau, Maurice Koch, Nelusa Pathmanathan, Tobias Isenberg, Daniel Weiskopf, Michael Sedlmair, Andreas Kohn, Kuno Kurzhals",Education,Room 201,14:30,60
+2025-10-09,Education and Learning,Xstudio: A Collaborative Metaverse-Based Tool for Automotive Design,"Liudongnan Yang, Christian Eichhorn, Markus Herbig, David A. Plecher",Education,Room 201,14:30,60
+2025-10-09,Training in Health and Sports,Haptic Feedback in an Immersive Microsurgery Simulator,"Intissar Cherif, Aylen Ricca, Mohamed Chaouki Babahenini, Samir Otmane, Amine Chellali",Health,Room 202,14:30,60
+2025-10-09,Training in Health and Sports,Cross-Reality for Autonomous Mobility in Autistic Individuals,"Francesco Vona, Mattia Gianotti, Maria Luisa Lorusso, Franca Garzotto",Health,Room 202,14:30,60
+2025-10-09,Training in Health and Sports,P-MARS: A VR-Based Rehabilitation System for Children with Autism,"Yang Zhao, Chenyang Wang, Peihan Shi, Jing Qu, Changqing Fu, Xuchen Guo, Lingguo Bu",Health,Room 202,14:30,60
+2025-10-09,Training in Health and Sports,VRTennis: Forehand Training in VR with Rule-Based Motion Analysis,"Anna Sebernegg, Peter Kan",Health,Room 202,14:30,60
+2025-10-09,Video Presentations 2: XR Illusions,The Impact of Performance-Specific Feedback from a Virtual Coach in a VR Exercise App,"Andrea Zimmerer, Lydia Bartels, Marc Erich Latoschik",Perception,Room 204,14:30,60
+2025-10-09,Video Presentations 2: XR Illusions,Virtual Museum Tour Agent: Effects of Responsiveness and Awareness,"Anant Upadhyay, Fu-Chia Yang, Christos Mousas",Perception,Room 204,14:30,60
+2025-10-09,Video Presentations 2: XR Illusions,The Effect of Crowds on Peripersonal Space in Immersive VEs,"Yuanhao Lyu, Soumyajit Chakraborty, HyeonSeung Lee, Holly C Gagnon, Sohee Park, Bobby Bodenheimer",Perception,Room 204,14:30,60
+2025-10-09,Video Presentations 2: XR Illusions,Let's Do It My Way: Effects of Personality and Age of Virtual Characters,"Minsoo Choi, Dixuan Cui, Siqi Guo, Dominic Kao, Christos Mousas",Perception,Room 204,14:30,60
+2025-10-09,Multisensory,Visual and Auditory Feedback for Enhancing Pseudo-Haptic Button Interaction,"Myeongji Ko, Woojoo Kim",Perception,Room 205,14:30,60
+2025-10-09,Multisensory,Visuo-Tactile Feedback with Hand Outline Styles for Affective Roughness,"Minju Baeck, Yoonseok Shin, Dooyoung Kim, Hyunjin Lee, Sang Ho Yoon, Woontack Woo",Perception,Room 205,14:30,60
+2025-10-09,Multisensory,Audiovisual Disparities in VR: Impact on Spatial Perception,"Edurne Bernal-Berdun, Mateo Vallejo, Qi Sun, Ana Serrano, Diego Gutierrez",Perception,Room 205,14:30,60
+2025-10-09,Multisensory,When Senses Collide: Modality Congruence in AR,"Mehakdeep Kaur, Hyeongil Nam, Ryan Kang, Dongyun Han, DongHoon Kim, Isaac Cho, Kangsoo Kim",Perception,Room 205,14:30,60
+2025-10-09,3D Display and Rendering,Virtual Pass-through: Evaluating 3D Gaussian Splatting,"Andy Schleising, Christian Kunert, Tobias Schwandt, Wolfgang Broll",Displays,Room 301,14:30,60
+2025-10-09,3D Display and Rendering,X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays,"Xiaodan Hu, Christoph Ebner, Yan Zhang, Kiyoshi Kiyokawa, Alexander Plopski",Displays,Room 301,14:30,60
+2025-10-09,3D Display and Rendering,Enhanced Adaptive Subdivision for Dynamic Mesh Compression,"Dayun Nam, Seong Yong Lim, Hyon-Gon Choo",Displays,Room 301,14:30,60
+2025-10-09,3D Display and Rendering,IntelliCap: Intelligent Guidance for Consistent View Sampling,"Ayaka Yasunaga, Hideo Saito, Dieter Schmalstieg, Shohei Mori",Displays,Room 301,14:30,60
+2025-10-09,Hands,HeadZoom: Hands-Free Zooming and Panning Using Head Motion,"Kaining Zhang, Catarina Moreira, Pedro Belchior, Gun A. Lee, Mark Billinghurst, Joaquim Jorge",Interaction,Room 201,16:00,60
+2025-10-09,Hands,Designing Hand and Forearm Gestures for User-Initiated Forearm Deformation,"Yilong Lin, Han Shi, Weitao Jiang, Xuesong Zhang, Hye-Young Jo, Yoonji Kim, Seungwoo Je",Interaction,Room 201,16:00,60
+2025-10-09,Hands,Comparing Hand and Controller Avatars with Hand Tracking,"Natalia P Ocampo, J. Felipe Gonzalez, Robert J Teather",Interaction,Room 201,16:00,60
+2025-10-09,Hands,AuxiScope: Handheld AR Tablet as an Auxiliary Display,"Matthew Castellana, Chahat Kalsi, Yoonsang Kim, Saeed Boorboor, Arie Kaufman",Interaction,Room 201,16:00,60
+2025-10-09,3DUI: Gaze,HeadDepth: Gaze Raycasting with Head Pitch for Depth Control,"Haopeng Wang, Florian Weidner, Yasmeen Abdrabou, Ken Pfeuffer, Hans Gellersen",Gaze,Room 202,16:00,60
+2025-10-09,3DUI: Gaze,Multimodal Pen + Gaze Interaction for Shape Point Translation in XR,"Uta Wagner, Jinwook Kim, Zhikun Wu, Qiushi Zhou, Mario Romero, Alessandro Iop, Tiare Feuchtner, Ken Pfeuffer",Gaze,Room 202,16:00,60
+2025-10-09,3DUI: Gaze,Design Principles and Challenges for Gaze + Pinch Interaction in XR,"Ken Pfeuffer, Hans Gellersen, Mar Gonzalez-Franco",Gaze,Room 202,16:00,60
+2025-10-09,3DUI: Gaze,Exploring Linearly Aligned Objects with Gaze and Microgestures,"Jihyeon Lee, Jinwook Kim, Jeongmi Lee",Gaze,Room 202,16:00,60
+2025-10-09,Locomotion,MyGO: VR Locomotion Prediction using Multitask Learning,"Zicheng Liu, Ding Ding, Zhuying Li, Chuhan Shi",Locomotion,Room 204,16:00,60
+2025-10-09,Locomotion,Effects of Peripheral Optic Flow on Positional Drift during Walk-In-Place,"Seungwoo Eun, Taeyun Noh, Myungho Lee",Locomotion,Room 204,16:00,60
+2025-10-09,Locomotion,Plausible Preference of Body-centric Locomotion with Reinforcement Learning,"Zijun Mai, BoYu Gao, Huawei Tu, Haojun Zheng, Henry Been-Lirn Duh",Locomotion,Room 204,16:00,60
+2025-10-09,Locomotion,Effect of Visual Cue Density on Situational Awareness during Immersive Navigation,"Nicole Weidinger, Tobias Schreck, Bruce H Thomas, Neven ElSayed, Eduardo Veas",Locomotion,Room 204,16:00,60
+2025-10-09,Cybersickness 1,Multimodal Contrastive Learning for Cybersickness Recognition,"Peike Wang, Ming Li, Ziteng Wang, Yong-Jin Liu, Lili Wang",Cybersickness,Room 205,16:00,60
+2025-10-09,Cybersickness 1,Probabilistic Verification of Cybersickness in VR Through Bayesian Networks,"Peng Wu, Nasim Ahmed, Abhiram Sarma, Kaiming Huang, Rifatul Islam, Bin Li, Tian Lan, Gang Tan, Mahdi Imani",Cybersickness,Room 205,16:00,60
+2025-10-09,Cybersickness 1,Field Dependence as a Predictor of Cybersickness,"Wallace Santos Lages, Brady Li, Zachary Gaydos",Cybersickness,Room 205,16:00,60
+2025-10-09,Cybersickness 1,Semi-Supervised Cybersickness Prediction from Physiological Signals,"A E M Ridwan, John Quarles, Rifatul Islam",Cybersickness,Room 205,16:00,60
+2025-10-09,"Avatars and Tracking, Animation",MMG: Manipulation-aware Holistic Human Motion Generation,"Xuehuai Shi, Renzhi Xiao, Yilun Sheng, Lili Wang, Jian Wu, Xiaobai Chen, Jieming Yin, Qingshan Liu",Avatars,Room 301,16:00,60
+2025-10-09,"Avatars and Tracking, Animation",Robustness of Self-Avatar Animation Beyond Sparse Tracking,"Antoine Maiorca, George Fletcher, Thierry Ravet, Thierry Dutoit",Avatars,Room 301,16:00,60
+2025-10-09,"Avatars and Tracking, Animation",Crafting Dynamic Virtual Activities with Advanced Multimodal Models,"Changyang Li, Qingan Yan, Minyoung Kim, Zhan Li, Yi Xu, Lap-Fai Yu",Avatars,Room 301,16:00,60
+2025-10-09,"Avatars and Tracking, Animation",VRtalk: Real-time Interactive Intelligent Anime Avatars in VR,"Yuan Yu, Chunlei Xu, Shirao Yang, Yu Cao, Yuyang Wang, Boon Giin Lee",Avatars,Room 301,16:00,60
+2025-10-09,Bodies and Presence,"Merging Bodies, Dividing Conflict: Body-Swapping in MR","Yuan He, Brendan Rooney, Rachel McDonnell",Presence,Room 201,17:30,60
+2025-10-09,Bodies and Presence,PresenceLens: Interpreting Dynamic Presence in VR,"Hayeon Kim, In-Kwon Lee",Presence,Room 201,17:30,60
+2025-10-09,Bodies and Presence,The Role of Visual Augmentation on Embodied Skill Acquisition,"Ruochen Cao, Zequn Liang, Chenkai Zhang, Andrew Cunningham, James A. Walsh, Rui Cao",Presence,Room 201,17:30,60
+2025-10-09,Bodies and Presence,DPIK: User Embodiment of Dual-point Tracked Avatars for Smartphone AR,"Elhassan Makled, Wolfgang Broll",Presence,Room 201,17:30,60
+2025-10-09,Perception,Subjective Anxiety and Behavior due to Personal Space Violations in Social VR,"Jiyoon Park, Christian Wallraven",Perception,Room 202,17:30,60
+2025-10-09,Perception,The Awe-some Spectrum: Self-Reported Awe in VR,"Melissa Steininger, Alexander Marquardt, Monica Perusquia-Hernandez, Marvin Lehnort, Hiromu Otsubo, Felix Dollack, Ernst Kruijff, Bjorn Kruger, Kiyoshi Kiyokawa, Bernhard E. Riecke",Perception,Room 202,17:30,60
+2025-10-09,Perception,Immersive Intergroup Contact: Using VR to Enhance Empathy Towards Schizophrenia,"Jiaqi Yin, Shihan Liu, Shao-Wen Lee, Andreas Kitsios, Marco Fyfe Pietro Gillies, Michele Denise Birtel, Harry Farmer, Xueni Pan",Perception,Room 202,17:30,60
+2025-10-09,Perception,Are You Empathizing with Me? External Expressions of Empathy in VR,"Yongho Lee, Bowon Kim, Hyunchul Kim, Jeongmi Lee, Gun A. Lee, Heesook Shin, Youn-Hee Gil",Perception,Room 202,17:30,60
+2025-10-09,In the Wild,AR Productivity In-the-Wild: A Diary Study of AR Laptops,"Yi Fei Cheng, Ari Carden, Hyunsung Cho, Catarina G. Fidalgo, Jonathan Wieland, David Lindlbauer",Applications,Room 204,17:30,60
+2025-10-09,In the Wild,Long-Term Experiences From Working with Extended Reality in the Wild,"Verena Biener, Florian Jack Winston, Dieter Schmalstieg, Alexander Plopski",Applications,Room 204,17:30,60
+2025-10-09,In the Wild,The Immersive Debriefing: Full and Segmented Redo methods in VR,"Kelly Minotti, Daniel Xuan Hien Mai, Guillaume Loup, Amine Chellali, Marie-helene Ferrer, Samir Otmane",Applications,Room 204,17:30,60
+2025-10-09,In the Wild,The State of Replication at IEEE ISMAR and IEEE VR,"Verena Biener, Mohammed Safayet Arefin, S M Rashidul Hasan Nijhum, Florian Weidner, Jens Grubert, J. Edward Swan",Applications,Room 204,17:30,60
+2025-10-09,Document Search,LitForager: Multimodal Literature Foraging in Immersive Sensemaking,"Haoyang Yang, Elliott H Faa, Weijian Liu, Shunan Guo, Duen Horng Chau, Yalong Yang",Applications,Room 205,17:30,60
+2025-10-09,Document Search,Exploring Organizational Strategies in Immersive Computational Notebooks,"Sungwon In, Ayush Roy, Eric Krokos, Kirsten Whitley, Chris North, Yalong Yang",Applications,Room 205,17:30,60
+2025-10-09,Document Search,DocVision: Cross-Device Immersive Active Reading for Academic Literature,"Yapeng Liu, Kai Chen, Dongliang Guo, Fengyi Yang",Applications,Room 205,17:30,60
+2025-10-09,Document Search,How Do We Read Texts in VR?,"Jungmin Lee, Hyuckjin Jang, Jeongmi Lee",Applications,Room 205,17:30,60
+2025-10-09,Perception and Interaction with Hands and Cues,Adaptive Hand Visibility for Accurate 3D User Interactions,"Rumeysa Turkmen, Laurent Voisard, Marta Kersten-Oertel, Anil Ufuk Batmaz",Interaction,Room 301,17:30,60
+2025-10-09,Perception and Interaction with Hands and Cues,The Effect of Hand Visibility in AR,"Jakob Hartbrich, Stephanie Arevalo Arboleda, Steve Goring, Alexander Raake",Interaction,Room 301,17:30,60
+2025-10-09,Perception and Interaction with Hands and Cues,How Virtual Hand Visibility Affects Near-Field Size Perception,"Chandni Murmu, Rohith Venkatakrishnan, Roshan Venkatakrishnan, Wen-Chieh Lin, Andrew Robb, Christopher Pagano, Sabarish V. Babu",Interaction,Room 301,17:30,60
+2025-10-09,Perception and Interaction with Hands and Cues,MAGIC: A Method for Analyzing the Grammar of Incomplete Cues,"Xinyu Hu, Joseph LaViola, Ryan P. McMahan",Interaction,Room 301,17:30,60
+2025-10-10,3DUI Selection and Pointing,SliVR: A 360 VR-Hub for Fast Selections in Multiple Virtual Environments,"Kevin Linne, Sven Thomas, Jennifer Roth, Martin Weigel",Interaction,Room 201,10:30,60
+2025-10-10,3DUI Selection and Pointing,Revisiting Performance Models of Distal Pointing Tasks in VR,"Logan Lane, Feiyu Lu, Shakiba Davari, Robert J. Teather, Doug A. Bowman",Interaction,Room 201,10:30,60
+2025-10-10,3DUI Selection and Pointing,Magic-Tap: A Kinematics-Driven Virtual Hand Selection Technique,"Ruyang Yu, Yixuan Liu, Zijian Wu, Tao Luo",Interaction,Room 201,10:30,60
+2025-10-10,3DUI Selection and Pointing,Selection at a Distance Through a Large Transparent Touch Screen,"Sebastian Rigling, Steffen Koch, Dieter Schmalstieg, Bruce H Thomas, Michael Sedlmair",Interaction,Room 201,10:30,60
+2025-10-10,Agents and AI,Navigation Pixie: On-demand Navigation Agents in Commercial Metaverse,"Hikari Yanagawa, Yuichi Hiroi, Satomi Tokida, Yuji Hatada, Takefumi Hiraki",Agents,Room 202,10:30,60
+2025-10-10,Agents and AI,Effects of AI-Powered Embodied Avatars on Communication Quality,"Hyeongil Nam, Muskan Sarvesh, Seoyoung Kang, Woontack Woo, Kangsoo Kim",Agents,Room 202,10:30,60
+2025-10-10,Agents and AI,When LLMs Recognize Your Space: Spatially Aware LLM Agents,"Seungwoo Oh, Nakyoung An, Youngwug Cho, Myeongul Jung, Kwanguk Kim",Agents,Room 202,10:30,60
+2025-10-10,Agents and AI,AI-Based Real-Time Gesture Generation and Immersion in Social XR,"Christian Merz, Niklas Krome, Carolin Wienrich, Stefan Kopp, Marc Erich Latoschik",Agents,Room 202,10:30,60
+2025-10-10,Humans and Collaboration,Influence of Crowd Size on User Performance in Shared VEs,"Haozhong Yang, Yi-Jun Li, Zinan Han, Wentong Shu, Miao Wang",Collaboration,Room 204,10:30,60
+2025-10-10,Humans and Collaboration,Effects of Virtual Crowds on Visual Attention in a Stressful VR Simulation,"Sai-Keung Wong, Yi-An Chen, Elizabeth A Schlesener, Rohith Venkatakrishnan, Roshan Venkatakrishnan, Yu-Ting Chao, Sabarish V. Babu",Collaboration,Room 204,10:30,60
+2025-10-10,Humans and Collaboration,Rendering Togetherness: Embodied Social Synchronization in Multi-User VR,"Julia Ayache, Julien Laroche, Maxime Herisse, Pierre Jean, Anna Katharina Hebborn, Didier Stricker, Benoit G. Bardy",Collaboration,Room 204,10:30,60
+2025-10-10,Humans and Collaboration,Can People's Brains Synchronize during Remote AR Collaboration?,"Jaehwan You, Myeongul Jung, Kwanguk Kim",Collaboration,Room 204,10:30,60
+2025-10-10,Privacy and Attacks,Visceral Notices and Privacy Mechanisms for Eye Tracking in AR,"Nissi Otoo, Kailon Blue, G. Nikki Ramirez, Evan Selinger, Shaun Foster, Brendan David-John",Security,Room 205,10:30,60
+2025-10-10,Privacy and Attacks,p-Blend: Privacy- and Utility-Preserving Blendshape Perturbation in VR,"Jingwei Liu, Lai Wei, Yan Hu, guangrong zhao, Qing Yang, Guangdong Bai, Yiran Shen",Security,Room 205,10:30,60
+2025-10-10,Privacy and Attacks,PrivateXR: Defending Privacy Attacks in XR Through Explainable AI,"Ripan Kumar Kundu, Istiak Ahmed, Khaza Anuarul Hoque",Security,Room 205,10:30,60
+2025-10-10,Privacy and Attacks,Detecting Visual Information Manipulation Attacks in AR,"Yanming Xiu, Maria Gorlatova",Security,Room 205,10:30,60
+2025-10-10,Robots,The AI of the Beholder: Experience of Healthcare AI Robots,"Jinha Yoon, Patrycja Zajac, Lauren Pococke, Anisia Jicol, Christopher Clarke, Eamonn O'Neill, Karin Petrini, Christof Lutteroth, Crescent Jicol",Robots,Room 301,10:30,60
+2025-10-10,Robots,ReachVox: Clutter-free Reachability Visualization for Robot Motion Planning,"Steffen Hauck, Diar Abdlkarim, John J Dudley, Per Ola Kristensson, Eyal Ofek, Jens Grubert",Robots,Room 301,10:30,60
+2025-10-10,Robots,Extended Reality Check: XR Prototyping for Human-Robot Interaction,"Tonia Mielke, Mareen Allgaier, Christian Hansen, Florian Heinrich",Robots,Room 301,10:30,60
+2025-10-10,Robots,RCLL-AR: AR Support for Understanding Autonomous Processes,"Jan-Heliodor Tscherko, Peter Kohout, Philipp Fleck, Matteo Tschesche, Alexander Ferrein, Gerald Steinbauer-Wagner, Alexander Plopski",Robots,Room 301,10:30,60
+2025-10-10,3DUI: Gaze 2,When Is Self-Gaze Helpful? Gaze Visualization in Collocated AR,"Daniel Alexander Delgado, Christopher J Bowers, Rodrigo Luis Calvo, Jaime Ruiz",Gaze,Room 201,12:00,60
+2025-10-10,3DUI: Gaze 2,Gaze Dynamics in VR Film Education,"Zheng Wei, Jia Sun, Junxiang Liao, Lik-Hang Lee, Pan Hui, Huamin Qu, Wai Tong, Xian Xu",Gaze,Room 201,12:00,60
+2025-10-10,3DUI: Gaze 2,Through the Expert's Eyes: Asynchronous Expert Gaze Visualizations in XR,"Clara Sayffaerth, Annika Kohler, Julian Rasch, Albrecht Schmidt, Florian Muller",Gaze,Room 201,12:00,60
+2025-10-10,3DUI: Gaze 2,Don't Miss Notifications: Gaze Notifications for VR Cooking,"Rumeysa Turkmen, Francisco Raul Ortega, Anil Ufuk Batmaz",Gaze,Room 201,12:00,60
+2025-10-10,Perception 2,Zeitgebers-Based User Experience and Time Perception Modeling in VR,"Yi Li, Zengyu Liu, Xiandi Zhu, Zhitao Liu, Yalan Ye, Ning Xie",Perception,Room 202,12:00,60
+2025-10-10,Perception 2,Rhythmic Interaction influences Synchrony Perception in VR,"Anton Benjamin Lammert, Lina Klass, Laura Simon, Eva Hornecker, Jan Ehlers, Bernd Froehlich",Perception,Room 202,12:00,60
+2025-10-10,Perception 2,Enhancing Dazzling Sensation through Pseudo-Blink in VR,"Takahiro Ito, Juro Hosoi, Yuki Ban, Shinichi Warisawa",Perception,Room 202,12:00,60
+2025-10-10,Perception 2,Why Slow Feels Fast and Fast Feels Slow: Speed Misperception,"Xi Peng, Colin Groth, Daniel Jimenez Navarro, Zihao Zou, Yan Zhu, Ana Serrano, Karol Myszkowski, Qi Sun, Praneeth Chakravarthula",Perception,Room 202,12:00,60
+2025-10-10,Art and Museum,ArtSpeak: An Interactive AR Application for Speaking with Art Portraits,"Shubhangi Saileja Rabichandra Garnaik, Aruna Balasubramanian, Niranjan Balasubramanian, Jihoon Ryoo",Applications,Room 204,12:00,60
+2025-10-10,Art and Museum,Emotional Art: Artistic re-creation based on emotion capture in VR,"Yufei Zhang, Ding Ding, Zhuying Li",Applications,Room 204,12:00,60
+2025-10-10,Art and Museum,Icebreaking: Building Trust with Virtual Museum Conversational Agents,"Zi-Qiang He, Ke Jiang, Shi-Jie Ming, Xiao-Feng Huang, Huan-zhi Lou, Jun-Bo Liu",Applications,Room 204,12:00,60
+2025-10-10,Art and Museum,Automated Scalable Brightness and Black Offset Seamlessness,"Ranga Sai Shreyas Manchikanti, Aditi Majumder",Applications,Room 204,12:00,60
+2025-10-10,Emotions,Design and Evaluation of a Virtual Agent for Interpersonal Emotion Regulation in VR,"Sei Kang, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, Myungho Lee, Seungwon Kim",Affect,Room 205,12:00,60
+2025-10-10,Emotions,Three Techniques for Enhancing Emotional Expression on Avatar Face in VR,"Jaejoon Jeong, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Gayun Suh, Sei Kang, Seungwon Kim",Affect,Room 205,12:00,60
+2025-10-10,Emotions,Neurophysiological Characteristics of VR Emotion Regulation Strategies,"Pengxiang Wang, Xiaohui Tan, Tianren Luo, Fangbing Qu, Chunyue Yan, Weiqi Xu",Affect,Room 205,12:00,60
+2025-10-10,Emotions,Behavioral and Symbolic Fillers as Delay Mitigation for Agents in VR,"Denmar Mojan Gonzales, Snehanjali Kalamkar, Sophie Jorg, Jens Grubert",Affect,Room 205,12:00,60
+2025-10-10,Machine Learning for 3D Reconstruction and Rendering,PanoFloor: reconstruction of large multi-room scenes from panoramic images,"Giovanni Pintore, Sara Jashari, Marco Agus, Enrico Gobbetti",Machine Learning,Room 301,12:00,60
+2025-10-10,Machine Learning for 3D Reconstruction and Rendering,DGDiff: Immersive 3D Indoor Scene Synthesis via Dialog-Graph Diffusion,"Yusen Liu, Xinyu Zhang, Qichuan Geng, Zhong Zhou",Machine Learning,Room 301,12:00,60
+2025-10-10,Machine Learning for 3D Reconstruction and Rendering,Real-Time Photorealistic Style Transfer for Immersive VR,"Taejoon Kim, Bon-Woo Hwang, Seung-Uk Yoon, Seong-Jae Lim, Kinam Kim, Seung Wook Lee",Machine Learning,Room 301,12:00,60
+2025-10-10,Machine Learning for 3D Reconstruction and Rendering,Fast SP-GS: Reconstructing Dynamic Scenes in Minutes,"Diwen Wan, Jiaxiang Tang, Ruijie Lu, Yuxiang Wang, Gang Zeng",Machine Learning,Room 301,12:00,60
+2025-10-10,"Gaze, Eye Tracking and Guidance",Effects of Eye-Tracking Accuracy on Gaze-Based Steering in VEs,"Xuning Hu, Yichuan Zhang, Yushi Wei, Liangyuting Zhang, Yue Li, Wolfgang Stuerzlinger, Hai-Ning Liang",Gaze,Room 201,14:30,60
+2025-10-10,"Gaze, Eye Tracking and Guidance",Focus-Aware Task Guidance: Adaptive AR Instruction Playback,"Bowen Yuan, Hyunwoo Cho, Theophilus Teo, Gun A. Lee, Mark Billinghurst",Gaze,Room 201,14:30,60
+2025-10-10,"Gaze, Eye Tracking and Guidance",A Bi-Directional Deep Learning Interface for Gaze-Controlled Wheelchair Navigation,"Gianni Bremer, Joseph McIntyre, Je Hyung Jung, Stefano Ellero, Issa Mouawad, Davide Di Gloria, Markus Lappe",Gaze,Room 201,14:30,60
+2025-10-10,"Gaze, Eye Tracking and Guidance",Will You Be Aware? Eye Tracking-Based Modeling of Situational Awareness in AR,"Zhehan Qu, Tianyi Hu, Christian Fronk, Maria Gorlatova",Gaze,Room 201,14:30,60
+2025-10-10,3DUI 3,An Open Testbed for Mixed Reality Precise Rotation Guidance,"Mine Dastan, Fabio Vangi, Francesco Musolino, Giuseppe Coviello, Michele Fiorentino",Interaction,Room 202,14:30,60
+2025-10-10,3DUI 3,Improving Mid-Air Sketching in Room-Scale VR with Color-to-Depth Cues,"Samantha Monty, Dennis Alexander Mevissen, Marc Erich Latoschik",Interaction,Room 202,14:30,60
+2025-10-10,3DUI 3,MirrorPose: Full-body Gestures for HMDs with a Full-length Mirror,"Chenlong Zhang, Xingwang Xue, Xiyu Sheng, Qiang Qu, Qi Lin, Yiran Shen",Interaction,Room 202,14:30,60
+2025-10-10,3DUI 3,AR Surgical Navigation With Surface Tracing,"Marc J Fischer, E. Brandon Strong",Interaction,Room 202,14:30,60
+2025-10-10,Avatar 2: Capabilities,Impact of Avatar-Locomotion Congruence on User Experience in VR,"Omar Khan, Hyeongil Nam, Kangsoo Kim",Avatars,Room 204,14:30,60
+2025-10-10,Avatar 2: Capabilities,The Honest Virtual Self? Avatar Personalization and Motor Control,"Anca Salagean, Darren Cosker, Danae Stanton Fraser",Avatars,Room 204,14:30,60
+2025-10-10,Avatar 2: Capabilities,Can the Perceived Capability of Your Virtual Avatar Enhance Exercise Performance?,"Sen-Zhe Xu, Bosheng Huang, Zian Zhou, runyu Li, Song-Hai Zhang, Xu-Cheng Yin",Avatars,Room 204,14:30,60
+2025-10-10,Haptics and Collaboration,Zero-Sum vs. Positive-Sum: Inter-team Competition and Haptic Feedback in VR,"Yu Wang, Qian qian Xiong, Yan Hu, Yulong Bian, Juan Liu, Wei Lin, Yichen Hong, Chao Zhou, Wei Gai, Shijun Liu, Chenglei Yang",Haptics,Room 205,14:30,60
+2025-10-10,Haptics and Collaboration,Investigating the Effects of Haptic Illusions in Collaborative VR,"Yannick Weiss, Julian Rasch, Jonas Fischer, Florian Muller",Haptics,Room 205,14:30,60
+2025-10-10,Haptics and Collaboration,Touching the Virtual Dog: Haptic Feedback on Social Bonding in VR,"Ahmad A Fouad, Hyeongil Nam, Anh Nguyen, Dongyun Han, DongHoon Kim, Isaac Cho, Kangsoo Kim",Haptics,Room 205,14:30,60
+2025-10-10,Haptics and Collaboration,What Makes Object Referencing Clear? Multimodal Strategies in XR,"Jeonghyeon Kim, Jemin Lee, Youngwon Kim",Haptics,Room 205,14:30,60
+2025-10-10,Depth,Toward a More Standardized Multi-directional Tapping Task in VR,"Haejun Kim, Yuhwa Hong, Jihae Yu, Shuping Xiong, Woojoo Kim",Perception,Room 301,14:30,60
+2025-10-10,Depth,"Influence of Object Height, Shadow and Luminance on Outdoor Depth Perception in AR","Shining Ma, Chaochao Liu, Jingyuan Wang, Yue Liu, Yongtian Wang, Weitao Song",Perception,Room 301,14:30,60
+2025-10-10,Depth,Viewpoint-Tolerant Depth Perception for Shared Extended Space,"Dooyoung Kim, Jinseok Hong, Heejeong Ko, Woontack Woo",Perception,Room 301,14:30,60
+2025-10-10,Depth,Improving Pointing Accuracy for 3D Target Selection in VR,"Songyue Yang, Kang Yueh, Haolin Gao, YY Yang, Mei Guo, Yu Liu, Zhonghao Zhu, Yue Liu",Perception,Room 301,14:30,60
+2025-10-11,Multimodality,EEG2Gaussian: Decoding and Visualizing Visual-Evoked EEG for VR Scenes,"Ming Li, Qiang Qu, Xiaoming Chen, Longfei Han, Haisheng Li, Yiran Shen",Multimodal,Room 201,09:00,60
+2025-10-11,Multimodality,Cross-Subject Cognitive Load Recognition in VR Using EEG and Eye-Tracking,"Shiwei Cheng, Jiaqi Dong, Yang Liu",Multimodal,Room 201,09:00,60
+2025-10-11,Multimodality,Influence of Cognitive Load on Physiological Signals in VR,"Jorge Pina, Edurne Bernal-Berdun, Daniel Martin, Sandra Malpica, Carmen Real, Alberto Barquero, Pablo Armanac, Jesus Lazaro, Alba Martin, Belen Masia, Ana Serrano",Multimodal,Room 201,09:00,60
+2025-10-11,Multimodality,MIRAGE: Multimodal Intention Recognition in VR Teleoperation,"Chi Sun, Xian Wang, Abhishek Kumar, Chengbin Cui, Lik-Hang Lee",Multimodal,Room 201,09:00,60
+2025-10-11,Locomotion and Teleportation,Negotiated User-to-Group Teleportations in Social VR,"Wentong Shu, Yi-Jun Li, Haozhong Yang, Zinan Han, Frank Steinicke, Miao Wang",Locomotion,Room 202,09:00,60
+2025-10-11,Locomotion and Teleportation,FootPorting: Foot-Based Teleportation for Seated Users,"Tingjie Wan, Yunxin Xu, Yue Li, Nilufar Baghaei, Hai-Ning Liang",Locomotion,Room 202,09:00,60
+2025-10-11,Locomotion and Teleportation,Time and Distance Perception in Egocentric Teleportation,"Matthias Wolwer, Daniel Zielasko",Locomotion,Room 202,09:00,60
+2025-10-11,Locomotion and Teleportation,SafeTeleport: Potential Field-Guided Teleportation for Personal Space,"Yi-Jun Li, Sen-Zhe Xu, Wentong Shu, Haozhong Yang, Zinan Han, Miao Wang, Song-Hai Zhang",Locomotion,Room 202,09:00,60
+2025-10-11,Agents Personalization,Move Like an Ammonite: Personalizing Force Feedback for Avatar Embodiment,"Shun Kondoh, Takeru Hashimoto, Takuji Narumi",Agents,Room 204,09:00,60
+2025-10-11,Agents Personalization,What if Virtual Agents Had Scents?,"Dongyun Han, Siyeon Bak, So-Hui Kim, Kangsoo Kim, Sun-Jeong Kim, Isaac Cho",Agents,Room 204,09:00,60
+2025-10-11,Agents Personalization,PersoNo: Personalised Notification Urgency Classifier in MR,"Jingyao Zheng, Haodi Weng, Xian Wang, Chengbin Cui, Sven Mayer, Chi-lok Tai, Lik-Hang Lee",Agents,Room 204,09:00,60
+2025-10-11,Training for and against Natural Phenomena,Transitional Mixed Reality Interfaces: Co-design with Flood-prone Communities,"Zhiling Jie, Geert Lugtenberg, Renjie Zhang, Armin Teubert, Makoto Fujisawa, Hideaki Uchiyama, Kiyoshi Kiyokawa, Isidro Butaslac, Taishi Sawabe, Hirokazu Kato",Training,Room 205,09:00,60
+2025-10-11,Training for and against Natural Phenomena,Integrated AR and VR Technologies for Realistic Fire Drill Training,"Hosan Kang, Jinseong Yang, Beom-Seok Ko, Bo-Seong Kim, Oh-Young Song, Soo-Mi Choi",Training,Room 205,09:00,60
+2025-10-11,Training for and against Natural Phenomena,"Clean Training, Clear Skies: VR Training for Smoke Opacity Certification","Ethan Seefried, Videep Venkatesha, Nathaniel Blanchard, Mohammed Safayet Arefin",Training,Room 205,09:00,60
+2025-10-11,Training for and against Natural Phenomena,Transforming Avalanche Rescue Training with VR,"Pascal Knierim, Anna-Lena Hetzenauer, Christoph Sitar",Training,Room 205,09:00,60
+2025-10-11,Guiding,Effects of AR Guidance Position within a Body-Fixed Coordinate System,"Shunbo Wang, Qing Xu, Klaus Schoeffmann",Guidance,Room 301,09:00,60
+2025-10-11,Guiding,Do You Even Need a City Guide Anymore? Expert Adoption of XR for City Tours,"Margarita Chikobava, Antonio Kruger",Guidance,Room 301,09:00,60
+2025-10-11,Guiding,Investigating Encoding and Perspective for AR Motion Guidance,"Jade Kandel, Sriya Kasumarthi, Spiros Tsalikis, Chelsea Duppen, Daniel Szafir, Michael Lewek, Henry Fuchs, Danielle Albers Szafir",Guidance,Room 301,09:00,60
+2025-10-11,Guiding,ImmerJM: A 3D Design Tool for Creating User Journey Maps,"Mingming Wang, Xiaoyu Zhang, Weiyue Gao, Yihan Mei, Haiyan Jiang, Yusheng Guo, Henry Been-Lirn Duh, Zhibin Zhou",Guidance,Room 301,09:00,60
+2025-10-11,Touch and Display,DOF-Separation for 3D Manipulation in XR,"Thorbjorn Mikkelsen, Qiushi Zhou, Mathias N. Lystbaek, Yang Liu, Hans Gellersen, Ken Pfeuffer",Displays,Room 201,10:30,60
+2025-10-11,Touch and Display,Exploring Body-Anchored AR Interfaces Across Mobility and Social Contexts,"Marium-E- Jannat, Shukan Miteshkumar Shah, Khalad Hasan",Displays,Room 201,10:30,60
+2025-10-11,Touch and Display,Handows: A Palm-Based Interactive Multi-Window Management System in VR,"Jindu Wang, Ke Zhou, Haoyu Ren, Per Ola Kristensson, Xiang Li",Displays,Room 201,10:30,60
+2025-10-11,Touch and Display,"Ada: A Distributed, Power-Aware, Real-Time Scene Provider for XR","Yihan Pang, Sushant Kondguli, Shenlong Wang, Sarita Adve",Displays,Room 201,10:30,60
+2025-10-11,"Locomotion, Redirection, and Object Manipulation",Weighted-Area Based Alignment Metric for Redirected Walking in VR,"Po Fan Yu, Huan-Chang Hung, Xue Liang Wu, Jung-Hong Chuang",Locomotion,Room 202,10:30,60
+2025-10-11,"Locomotion, Redirection, and Object Manipulation",Have A Seat: Reactive Alignment of a Single Target in VR,"Habiba Hesham Mohamed AbdelAziz, Yutaro Hirao, Monica Perusquia-Hernandez, Hideaki Uchiyama, Kiyoshi Kiyokawa",Locomotion,Room 202,10:30,60
+2025-10-11,"Locomotion, Redirection, and Object Manipulation",Defying Gravity: Gravitoinertial Retargeting for Virtual Vertical Motion in In-Car VR,"Bocheon Gim, Seongjun Kang, Dohyeon Yeo, Gwangbin Kim, Juwon Um, Jeongju Park, SeungJun Kim",Locomotion,Room 202,10:30,60
+2025-10-11,"Locomotion, Redirection, and Object Manipulation",MR-CoCo: A Mixed Reality Testbed for Co-located Product Configuration,"Fabio Vangi, Daniel Medeiros, Mine Dastan, Michele Fiorentino",Locomotion,Room 202,10:30,60
+2025-10-11,Audio,Birds of a Feather Augment Together: Sonic Links in Audio AR,"Jacob Bhattacharyya, Alessandro Vinciarelli, Stephen Anthony Brewster",Audio,Room 204,10:30,60
+2025-10-11,Audio,Sonify Anything: Context-Aware Sonic Interactions in AR,"Laura Schutz, Sasan Matinfar, Ulrich Eck, Daniel Roth, Nassir Navab",Audio,Room 204,10:30,60
+2025-10-11,Audio,EgoTrigger: Audio-Driven Image Capture for Memory Enhancement in Smart Glasses,"Akshay Paruchuri, Sinan Hersek, Lavisha Aggarwal, Qiao Yang, Xin Liu, Achin Kulshrestha, Andrea Colaco, Henry Fuchs, Ishan Chatterjee",Audio,Room 204,10:30,60
+2025-10-11,Audio,First-Person Vocal Auralisation in XR,"Mauricio Flores-Vargas, Enda Bates, Rachel McDonnell",Audio,Room 204,10:30,60
+2025-10-11,Authentication,Casual-VRAuth: Behavioral Authentication in VR,"Guanyu Ye, BoYu Gao, Huawei Tu",Security,Room 205,10:30,60
+2025-10-11,Authentication,cLock: Single-Handed Two-Factor Authentication in VR,"Xueyang Wang, Xin Yi, Jiaqi Li, Shuning Zhang, BoYu Gao, Hewu Li",Security,Room 205,10:30,60
+2025-10-11,Authentication,Reflecting on User Accounts of In-Transit Passenger XR,"Katharina Margareta Theresa Pohlmann, Graham Wilson, Laura Bajorunaite, Mark McGill, Joseph O'Hagan",Security,Room 205,10:30,60
+2025-10-11,Authentication,Siren Song: Acoustic Attacks on Pose Estimation in XR Headsets,"Zijian Huang, Yicheng Zhang, Sophie Chen, Nael Abu-Ghazaleh, Jiasi Chen",Security,Room 205,10:30,60
+2025-10-11,Multimodal Systems,MRPilot: A Mixed-Reality System for Responsive Guidance of Procedural Tasks,"Hongliang Yang, Jin Zhou, Pengfei Xu, Hongbo Fu, Hui Huang",Multimodal,Room 301,10:30,60
+2025-10-11,Multimodal Systems,SAMR: Spatial-Augmented Mixed Reality for Vision-Language Models,"Junjian Lin, WenZhuo Sun, Xiangyu Zhang, Jianjian Wang, Pingfa Feng, Dingwen Yu, Jianfu Zhang",Multimodal,Room 301,10:30,60
+2025-10-11,Multimodal Systems,SGSG: Stroke-Guided Scene Graph Generation,"Qixiang Ma, Runze Fan, Lizhi Zhao, Jian Wu, Sio Kei Im, Lili Wang",Multimodal,Room 301,10:30,60
+2025-10-11,Multimodal Systems,Multimodal Classification of Distraction in VR Learning,"Nicholas P Fisher, Arun K Kulshreshth",Multimodal,Room 301,10:30,60
+2025-10-11,Eye and Perception,When One Eye Sees Less: Perceptual Thresholds of Asymmetric Quality in 4K XR,"Haechan Lee, Namil Kim, Hoe Sung Ryu, Uijong Ju",Perception,Room 201,12:00,60
+2025-10-11,Eye and Perception,Examining Eye Vergence During Perceived Depth Changes in Optical See-Through AR,"Matthew Sturgeon, Dakota D Kenoyer-Healy, Russell Cohen-Hoffing, Steven M. Thurman, Mohammed Safayet Arefin",Perception,Room 201,12:00,60
+2025-10-11,Eye and Perception,WarpVision: Using Spatial Curvature to Guide Attention in VR,"Jerome Kudnick, Martin Weier, Colin Groth, Biying Fu, Robin Horst",Perception,Room 201,12:00,60
+2025-10-11,Eye and Perception,How Accurate is the HoloLens 2?,"Bruno Gabriel Cavalcante Lima, Bruno Georgevich Ferreira, Tiago Vieira, Edvar Monteiro Neto, Renalvo Alves Ferreira, Arthur Vangasse, Vergilio Torezan Silingardi Del Claro",Perception,Room 201,12:00,60
+2025-10-11,Mobile XR,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile AR (II),"Martin Pluisch, Jan Gugenheimer, Youngjun Cho, Simon Julier, Ernst Kruijff",Mobile,Room 202,12:00,60
+2025-10-11,Mobile XR,See What I Mean? Mobile Eye-Perspective Rendering for OST HMDs,"Gerlinde Emsenhuber, Tobias Langlotz, Denis Kalkofen, Markus Tatzgern",Mobile,Room 202,12:00,60
+2025-10-11,Mobile XR,EVER: Edge-Assisted Auto-Verification for Mobile MR-Aided Operation,"Jiangong Chen, Mingyu Zhu, Bin Li",Mobile,Room 202,12:00,60
+2025-10-11,Mobile XR,Cardboard Controller: A Cost-Effective Method for Mobile VR,"Kristen Grinyer, Robert J. Teather",Mobile,Room 202,12:00,60
+2025-10-11,Well-being,VR as a Drop-In Well-being Tool for Knowledge Workers,"Sophia Ppali, Haris Psallidopoulos, Marios Constantinides, Fotis Liarokapis",Health,Room 204,12:00,60
+2025-10-11,Well-being,Can AI Inspire Biophilic Design in Immersive VR Workspaces?,"Sara Romano, Luana Marangelli, Enricoandrea Laviola, Antonio E. Uva, Michele Gattullo",Health,Room 204,12:00,60
+2025-10-11,Well-being,Experiencing Immersive Virtual Nature for Well-Being: A Scoping Review,"Jeewoo Kim, Svara Patel, Hyeongil Nam, Janghee Cho, Kangsoo Kim",Health,Room 204,12:00,60
+2025-10-11,Cybersickness Reduction,Neck Goes VRrr: Reducing Rotation-Induced VR Sickness through Neck Vibrations,"Kun-Woo Song, Sang Ho Yoon",Cybersickness,Room 205,12:00,60
+2025-10-11,Cybersickness Reduction,Do Vibrotactile Virtual Walking Sensations Reduce VR Cybersickness?,"Jaewan Lim, Sooyeon Choi, Jimin Ryu, Taeyoon Lee, Jiyoung Park, Yongjae Yoo",Cybersickness,Room 205,12:00,60
+2025-10-11,Cybersickness Reduction,Unwinding Rotations Reduces VR Sickness in Immersive Telepresence,"Filip Kulisiewicz, Basak Sakcak, Evan G. Center, Juho Kalliokoski, Katherine J. Mimnaugh, Steven LaValle, Timo Ojala",Cybersickness,Room 205,12:00,60
+2025-10-11,Cybersickness Reduction,"Sitting or standing in VR: Comfort, Conflicts, and Hazards","Daniel Zelasko, Bernhard Riecke",Cybersickness,Room 205,12:00,60
+2025-10-11,Machine Learning and Human Animation,HFM-GS: half-face mapping 3DGS avatar for real-time HMD removal,"Kangyu Wang, Jian Wu, Runze Fan, Hongwen Zhang, Sio Kei Im, Lili Wang",Machine Learning,Room 301,12:00,60
+2025-10-11,Machine Learning and Human Animation,AniDream: Generating Skeleton-Guided Anime Avatars from Text,"Fernanda Miyuki Yamada, Hiroki Takahashi",Machine Learning,Room 301,12:00,60
+2025-10-11,Machine Learning and Human Animation,HaHeAE: Learning Joint Representations of Hand and Head Movements in XR,"Zhiming Hu, Guanhua Zhang, Zheming Yin, Daniel Haufle, Syn Schmitt, Andreas Bulling",Machine Learning,Room 301,12:00,60
+2025-10-11,Machine Learning and Human Animation,From Notation to Gesture: Virtual Conductor Gesture Generation in VR,"Haozhe Ma, Yuxin Shen, Wei Liang, Yunde Jia",Machine Learning,Room 301,12:00,60
+2025-10-11,Visual Cues and Perception,AR Support for Swarm Monitoring: Visual Cues to Prevent Fragmentation,"Aymeric Henard, Etienne Peillard, Jeremy Riviere, Sebastien Kubicki, Gilles Coppin",Perception,Room 201,14:30,60
+2025-10-11,Visual Cues and Perception,Cross-media Color Appearance Reproduction in Optical See-Through AR,"Jiahong Luo, Shining Ma, Yue Liu, Yongtian Wang, Weitao Song",Perception,Room 201,14:30,60
+2025-10-11,Visual Cues and Perception,The Cost of Virtuality Switching in Optical-See-Through AR,"Kangyou Yu, Yunhao Luo, Radha Kumaran, Shane Dirksen, Misha Sra, Tobias Hollerer",Perception,Room 201,14:30,60
+2025-10-11,Visual Cues and Perception,Seeing What Matters: Attentional Alignment Between Humans and AI in VR Driving,"Hoe Sung Ryu, Uijong Ju, Christian Wallraven",Perception,Room 201,14:30,60
+2025-10-11,Machine Learning and Rendering for Objects and Hands,Dual Focus Multiscale Attention for Object Detection in MR,"Salah eddine Laidoudi, Madjid Maidi, Samir Otmane",Machine Learning,Room 202,14:30,60
+2025-10-11,Machine Learning and Rendering for Objects and Hands,EgoBlur: Blurry Egocentric XR Dataset for Robust Hand Pose Estimation,"Chae Eun Lee, Anmol Namdev, haeri jang, Prateek Kukreja, Meghana Shankar, Green Rosh, Pawan Prasad BH, Sung Soo Choi, Kihwan Kim",Machine Learning,Room 202,14:30,60
+2025-10-11,Machine Learning and Rendering for Objects and Hands,Scalable Object Detection in MR using Incremental Re-training,"Alireza Taheritajar, Jeffrey L Benson, Anthony Gibson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky",Machine Learning,Room 202,14:30,60
+2025-10-11,Machine Learning and Rendering for Objects and Hands,GSHOI Denoiser: Denoising Gaussian Hand-Object Interaction Rendering,"Lizhi Zhao, Xuequan Lu, Bin Hu, Jian Wu, Wei Ke, Lili Wang",Machine Learning,Room 202,14:30,60
+2025-10-11,Haptics 2,Passive Haptics Role in VR-Based Ergonomic Workplace Assessment,"Robin Griessel, Britta Weber, Benjamin Weyers",Haptics,Room 204,14:30,60
+2025-10-11,Haptics 2,Investigating the Potential of Haptic Props for 3D Object Manipulation in AR,"Jonathan Wieland, Maximilian Durr, Rebecca Frisch, Melissa Michalke, Dominik Morgenstern, Harald Reiterer",Haptics,Room 204,14:30,60
+2025-10-11,Haptics 2,A Handheld Stiffness Display with a Programmable Spring (II),"Ke Shi, Quan Xiong, Maozeng Zhang, Aiguo Song, Lifeng Zhu",Haptics,Room 204,14:30,60
+2025-10-11,Haptics 2,HaptiCeiling: An Encountered-type Overhead Haptic Interface in VR,"Kaihan Wang, Han Shi, Junyu Chen, Xuesong Zhang, Seungwoo Je",Haptics,Room 204,14:30,60
+2025-10-11,Video Presentations 3: XR Interactions,Spatiotemporal Calibration for High-Precision SLAM Benchmarking in XR,"Zichao Shu, Shitao Bei, Lijun Li, Zetao Chen",Interaction,Room 205,14:30,60
+2025-10-11,Video Presentations 3: XR Interactions,Why Slow Feels Fast and Fast Feels Slow (II),"Xi Peng, Colin Groth, Daniel Jimenez Navarro, Zihao Zou, Yan Zhu, Ana Serrano, Karol Myszkowski, Qi Sun, Praneeth Chakravarthula",Interaction,Room 205,14:30,60
+2025-10-11,Video Presentations 3: XR Interactions,Experience Level Influences Criteria for Avatar Animation Realism,"Yudong Huang, Avneet Singh, Mark Roman Miller",Interaction,Room 205,14:30,60
+2025-10-11,Video Presentations 3: XR Interactions,Heart Flows with Zen: Multi-modal MR for Cultural Heritage,"Wenchen Winston Guo, Zhirui Chen, Guoyu Sun, Hailiang Wang",Interaction,Room 205,14:30,60
+2025-10-09,Keynote Talk I,Keynote Talk I,TBA,Keynote,Room 201,09:00,60
+2025-10-10,Keynote Talk II,Keynote Talk II,TBA,Keynote,Room 201,09:00,60
+2025-10-11,Keynote Talk III,Keynote Talk III,TBA,Keynote,Room 201,16:00,60

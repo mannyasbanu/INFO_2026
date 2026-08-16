@@ -1,0 +1,127 @@
+:root {
+  --ink: #1a1a1f;
+  --muted: #5b5b66;
+  --line: #e2e0d8;
+  --paper: #faf9f5;
+  --panel: #ffffff;
+  --accent: #2f5d50;        /* deep conference green */
+  --accent-soft: #e8f0ed;
+  --warn-bg: #fff6e9;
+  --warn-line: #e6c789;
+  --warn-ink: #7a5410;
+  --radius: 6px;
+  --maxw: 960px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+code {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: #f0eee7;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* Top bar */
+.topbar {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+  max-width: var(--maxw); margin: 0 auto; padding: 1.4rem 1.25rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.brand { text-decoration: none; color: var(--ink); display: flex; align-items: baseline; gap: 0.5rem; }
+.brand-mark {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  letter-spacing: 0.15em; font-size: 0.8rem; font-weight: 700;
+  color: var(--accent); border: 1px solid var(--accent);
+  padding: 0.15rem 0.4rem; border-radius: 4px;
+}
+.brand-name { font-size: 1.15rem; font-weight: 600; }
+.nav { display: flex; gap: 1.25rem; }
+.nav a {
+  text-decoration: none; color: var(--muted); font-size: 0.95rem;
+  padding-bottom: 0.2rem; border-bottom: 2px solid transparent;
+}
+.nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Layout */
+.content { max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+.footer {
+  max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1.25rem;
+  border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem;
+}
+
+h1 { font-size: 1.7rem; margin: 0.2rem 0 0.4rem; }
+h2 { font-size: 1.2rem; margin: 1.6rem 0 0.6rem; }
+.lede { color: var(--muted); margin: 0 0 1.2rem; }
+
+/* Flash */
+.flash {
+  max-width: var(--maxw); margin: 1rem auto 0; padding: 0.6rem 1rem;
+  background: var(--accent-soft); border: 1px solid #cfe0da; border-radius: var(--radius);
+  color: #244a40;
+}
+.flash p { margin: 0.15rem 0; }
+
+/* Not-built panel: the recurring signal as students implement methods */
+.notbuilt {
+  background: var(--warn-bg); border: 1px solid var(--warn-line);
+  border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0;
+}
+.notbuilt-tag {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem;
+  color: var(--warn-ink); margin: 0 0 0.4rem;
+}
+.notbuilt p { margin: 0.2rem 0; }
+.notbuilt-hint { color: var(--muted); font-size: 0.9rem; }
+
+/* Session / paper lists */
+.grid { display: grid; gap: 0.6rem; }
+.card {
+  display: block; text-decoration: none; color: inherit;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+}
+a.card:hover { border-color: var(--accent); }
+.card-title { font-weight: 600; }
+.meta { color: var(--muted); font-size: 0.88rem; margin-top: 0.2rem; }
+.tag {
+  display: inline-block; font-size: 0.74rem; color: var(--accent);
+  background: var(--accent-soft); border-radius: 4px; padding: 0.05rem 0.4rem;
+  margin-right: 0.3rem;
+}
+
+.paper { border-bottom: 1px solid var(--line); padding: 0.7rem 0; }
+.paper:last-child { border-bottom: none; }
+.paper-authors { color: var(--muted); font-size: 0.9rem; }
+
+/* Forms */
+form.inline { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
+input[type=text], select {
+  font: inherit; padding: 0.4rem 0.55rem; border: 1px solid var(--line);
+  border-radius: 4px; background: #fff;
+}
+button {
+  font: inherit; cursor: pointer; padding: 0.4rem 0.9rem;
+  background: var(--accent); color: #fff; border: none; border-radius: 4px;
+}
+button:hover { background: #26483e; }
+
+.back { display: inline-block; margin-bottom: 0.8rem; color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--accent); }
+
+table.summary { border-collapse: collapse; margin-top: 0.5rem; }
+table.summary td { padding: 0.2rem 1rem 0.2rem 0; }
+
+@media (prefers-reduced-motion: no-preference) {
+  a.card { transition: border-color 0.12s ease; }
+}
