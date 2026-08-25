@@ -35,7 +35,9 @@ application relies on them.
 
 from __future__ import annotations
 
+from student.domain import Paper, Session
 from student.programme_importer import CsvProgrammeImporter
+from student.schedule_access import IScheduleAccess, ScheduleAccess
 from student.session_access import ISessionAccess, SessionAccess
 
 
@@ -53,6 +55,9 @@ class ScheduleService:
         """
         importer = CsvProgrammeImporter()
         self._session_access: ISessionAccess = SessionAccess(importer)
+        self._schedule_access: IScheduleAccess = ScheduleAccess(
+            self._session_access
+        )
 
     # ------------------------------------------------------------------ #
     # UC1: Import and view the programme  (IMPLEMENT THESE FOR 2A)         #
@@ -123,11 +128,11 @@ class ScheduleService:
         # Every loaded paper is indexed with its owning session
         assert owner is not None
         return [
-            {
-                "title": paper.title,
-                "authors": paper.authors,
-                "track": owner.track,
-            }
+            self._paper_to_dict(
+                paper,
+                owner,
+                include_session_details=False,
+            )
             for paper in papers
         ]
 
@@ -145,13 +150,11 @@ class ScheduleService:
         Raises:
             ValueError: if no paper with that title exists.
         """
-        # TODO(student): implement this
-        raise NotImplementedError("add_to_schedule is not implemented yet")
+        self._schedule_access.add_paper(schedule_name, paper_title)
 
     def list_schedules(self) -> list[str]:
         """Return the names of all saved schedules (for the interface to list)."""
-        # TODO(student): implement this
-        raise NotImplementedError("list_schedules is not implemented yet")
+        return self._schedule_access.list_names()
 
     def list_schedule_papers(self, schedule_name: str) -> list[dict]:
         """Return the papers in one saved schedule.
@@ -161,8 +164,49 @@ class ScheduleService:
         interface can show when each paper is on. Return an empty list if the
         schedule does not exist.
         """
-        # TODO(student): implement this
-        raise NotImplementedError("list_schedule_papers is not implemented yet")
+        paper_titles = self._schedule_access.get_paper_titles(schedule_name)
+        if paper_titles is None:
+            return []
+
+        papers: list[dict] = []
+        for paper_title in paper_titles:
+            paper = self._session_access.find_paper(paper_title)
+            session = self._session_access.find_session_for_paper(paper_title)
+            if paper is None or session is None:
+                raise ValueError(
+                    f"stored paper {paper_title!r} is missing from the programme"
+                )
+            papers.append(
+                self._paper_to_dict(
+                    paper,
+                    session,
+                    include_session_details=True,
+                )
+            )
+        return papers
+
+    @staticmethod
+    def _paper_to_dict(
+        paper: Paper,
+        session: Session,
+        include_session_details: bool,
+    ) -> dict:
+        paper_details: dict = {
+            "title": paper.title,
+            "authors": paper.authors,
+            "track": session.track,
+        }
+        if include_session_details:
+            paper_details.update(
+                {
+                    "session": session.name,
+                    "day": session.day.isoformat(),
+                    "room": session.room,
+                    "start_time": session.start_time.strftime("%H:%M"),
+                    "duration_min": session.duration_min,
+                }
+            )
+        return paper_details
 
     # ------------------------------------------------------------------ #
     # UC3: Compare schedules  (DESIGN FOR 2A, IMPLEMENT FOR 2B)            #

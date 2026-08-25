@@ -1,8 +1,30 @@
-"""Domain objects for the conference programme."""
+"""Domain objects for the conference programme and personal schedules."""
 
 from __future__ import annotations
 
 from datetime import date, time
+
+
+class Schedule:
+    """A named, ordered collection of unique paper titles."""
+
+    def __init__(self, name: str) -> None:
+        self._name = name
+        self._paper_titles: list[str] = []
+
+    @property
+    def name(self) -> str:
+        return self._name
+
+    def add_paper(self, paper_title: str) -> None:
+        if not self.contains(paper_title):
+            self._paper_titles.append(paper_title)
+
+    def contains(self, paper_title: str) -> bool:
+        return paper_title in self._paper_titles
+
+    def paper_titles(self) -> tuple[str, ...]:
+        return tuple(self._paper_titles)
 
 
 class Paper:

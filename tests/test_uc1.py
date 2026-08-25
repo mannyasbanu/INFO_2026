@@ -453,9 +453,6 @@ def test_supplied_programme_loads_and_can_be_read() -> None:
 @pytest.mark.parametrize(
     ("method_name", "arguments"),
     [
-        ("add_to_schedule", ("My Schedule", "Paper 1")),
-        ("list_schedules", ()),
-        ("list_schedule_papers", ("My Schedule",)),
         ("compare", ("A", "B")),
         ("save_joint_schedule", ("Joint", "A", "B")),
         ("summarise", ("My Schedule",)),
