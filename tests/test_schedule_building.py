@@ -190,7 +190,7 @@ def test_overlapping_session_papers_can_share_schedule(tmp_path: Path) -> None:
     service = ScheduleService()
     service.load_sessions(str(path))
 
-    # The sessions overlap, but UC2 allows both papers to be selected.
+    # Overlapping sessions do not prevent both papers from being selected.
     service.add_to_schedule("My Schedule", "Paper One")
     service.add_to_schedule("My Schedule", "Paper Two")
 

@@ -38,7 +38,9 @@ from __future__ import annotations
 from student.domain import Paper, Session
 from student.programme_importer import CsvProgrammeImporter
 from student.schedule_access import IScheduleAccess, ScheduleAccess
+from student.schedule_comparator import IScheduleComparator, ScheduleComparator
 from student.session_access import ISessionAccess, SessionAccess
+from student.summary_generator import ISummaryGenerator, SummaryGenerator
 
 
 class ScheduleService:
@@ -57,6 +59,13 @@ class ScheduleService:
         self._session_access: ISessionAccess = SessionAccess(importer)
         self._schedule_access: IScheduleAccess = ScheduleAccess(
             self._session_access
+        )
+        self._comparator: IScheduleComparator = ScheduleComparator(
+            self._schedule_access
+        )
+        self._summary_generator: ISummaryGenerator = SummaryGenerator(
+            self._schedule_access,
+            self._session_access,
         )
 
     # ------------------------------------------------------------------ #
@@ -222,8 +231,7 @@ class ScheduleService:
                 "only_b"  list of paper titles only in schedule_b
                 "merged"  list of paper titles in EITHER schedule (no repeats)
         """
-        # TODO(student): implement this
-        raise NotImplementedError("compare is not implemented yet")
+        return self._comparator.compare(schedule_a, schedule_b)
 
     def save_joint_schedule(self, new_name: str, schedule_a: str,
                             schedule_b: str) -> None:
@@ -232,8 +240,8 @@ class ScheduleService:
         The new schedule contains every paper from either schedule, with no
         repeats.
         """
-        # TODO(student): implement this
-        raise NotImplementedError("save_joint_schedule is not implemented yet")
+        comparison = self._comparator.compare(schedule_a, schedule_b)
+        self._schedule_access.save_new(new_name, comparison["merged"])
 
     # ------------------------------------------------------------------ #
     # UC4: Summarise a schedule  (DESIGN FOR 2A, IMPLEMENT FOR 2B)         #
@@ -248,5 +256,4 @@ class ScheduleService:
                 "tracks"        a dict of track name -> count
                 "total_minutes" sum of the durations of the papers' sessions
         """
-        # TODO(student): implement this
-        raise NotImplementedError("summarise is not implemented yet")
+        return self._summary_generator.summarise(schedule_name)

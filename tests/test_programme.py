@@ -448,21 +448,3 @@ def test_supplied_programme_loads_and_can_be_read() -> None:
     assert paper_count > 0
     assert sessions
     assert service.list_papers(sessions[0]["session"])
-
-
-@pytest.mark.parametrize(
-    ("method_name", "arguments"),
-    [
-        ("compare", ("A", "B")),
-        ("save_joint_schedule", ("Joint", "A", "B")),
-        ("summarise", ("My Schedule",)),
-    ],
-)
-def test_later_use_cases_remain_unimplemented(
-    method_name: str, arguments: tuple[str, ...]
-) -> None:
-    # Later features should remain unavailable until their own implementation
-    service = ScheduleService()
-
-    with pytest.raises(NotImplementedError):
-        getattr(service, method_name)(*arguments)

@@ -102,3 +102,88 @@ def test_same_paper_can_belong_to_multiple_schedules(
 
     assert schedule_access.get_paper_titles("First Schedule") == ("Paper One",)
     assert schedule_access.get_paper_titles("Second Schedule") == ("Paper One",)
+
+
+def test_save_new_stores_papers_in_supplied_order(
+    schedule_access: ScheduleAccess,
+) -> None:
+    schedule_access.save_new(
+        "Joint",
+        ["Paper Three", "Paper One", "Paper Two"],
+    )
+
+    assert schedule_access.get_paper_titles("Joint") == (
+        "Paper Three",
+        "Paper One",
+        "Paper Two",
+    )
+
+
+def test_save_new_allows_empty_schedule(
+    schedule_access: ScheduleAccess,
+) -> None:
+    schedule_access.save_new("Empty", [])
+
+    assert schedule_access.get_paper_titles("Empty") == ()
+    assert "Empty" in schedule_access.list_names()
+
+
+def test_save_new_removes_duplicate_titles_preserving_first_occurrence(
+    schedule_access: ScheduleAccess,
+) -> None:
+    schedule_access.save_new(
+        "Joint",
+        ["Paper One", "Paper Two", "Paper One"],
+    )
+
+    assert schedule_access.get_paper_titles("Joint") == (
+        "Paper One",
+        "Paper Two",
+    )
+
+
+def test_save_new_accepts_a_general_iterable(
+    schedule_access: ScheduleAccess,
+) -> None:
+    titles = (title for title in ["Paper One", "Paper Two"])
+
+    schedule_access.save_new("Joint", titles)
+
+    assert schedule_access.get_paper_titles("Joint") == (
+        "Paper One",
+        "Paper Two",
+    )
+
+
+@pytest.mark.parametrize("schedule_name", ["", "   "])
+def test_save_new_rejects_blank_name(
+    schedule_access: ScheduleAccess,
+    schedule_name: str,
+) -> None:
+    with pytest.raises(ValueError):
+        schedule_access.save_new(schedule_name, ["Paper One"])
+
+    assert schedule_access.get_paper_titles(schedule_name) is None
+
+
+def test_save_new_rejects_unknown_paper_without_creating_schedule(
+    schedule_access: ScheduleAccess,
+) -> None:
+    with pytest.raises(ValueError):
+        schedule_access.save_new(
+            "Invalid",
+            ["Paper One", "Unknown Paper"],
+        )
+
+    assert schedule_access.get_paper_titles("Invalid") is None
+
+
+def test_save_new_rejects_existing_name_without_overwriting_schedule(
+    schedule_access: ScheduleAccess,
+) -> None:
+    schedule_access.save_new("Existing", ["Paper One"])
+
+    with pytest.raises(ValueError):
+        schedule_access.save_new("Existing", ["Paper Two"])
+
+    assert schedule_access.get_paper_titles("Existing") == ("Paper One",)

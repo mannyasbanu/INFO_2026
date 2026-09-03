@@ -60,8 +60,23 @@ class ScheduleAccess:
     def save_new(
         self, schedule_name: str, paper_titles: Iterable[str]
     ) -> None:
-        raise NotImplementedError("save_new is not implemented yet")
+        self._validate_name(schedule_name)
+        if schedule_name in self._schedules_by_name:
+            raise ValueError(f"schedule already exists: {schedule_name!r}")
+
+        titles = tuple(paper_titles)
+        self._validate_papers(titles)
+
+        schedule = Schedule(schedule_name)
+        for paper_title in titles:
+            schedule.add_paper(paper_title)
+        self._schedules_by_name[schedule_name] = schedule
 
     def _validate_name(self, schedule_name: str) -> None:
         if not schedule_name.strip():
             raise ValueError("schedule name must not be blank")
+
+    def _validate_papers(self, paper_titles: Iterable[str]) -> None:
+        for paper_title in paper_titles:
+            if self._session_access.find_paper(paper_title) is None:
+                raise ValueError(f"unknown paper title: {paper_title!r}")
